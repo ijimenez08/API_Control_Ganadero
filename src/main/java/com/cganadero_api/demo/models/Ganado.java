@@ -2,9 +2,21 @@ package com.cganadero_api.demo.models;
 
 import java.util.Date;
 
+import jakarta.persistence.*;
+
+
+@Entity
+@Table(name = "ganado")
 public class Ganado 
 {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(unique = true, nullable = false)
+
     private long id;
+    private long NumGanado;
+   
     private String Finca;
     private String Porpietario;
     private String Nombre;
@@ -25,6 +37,12 @@ public class Ganado
     }
     public void setId(long id) {
         this.id = id;
+    }
+     public long getNumGanado() {
+        return NumGanado;
+    }
+    public void setNumGanado(long numGanado) {
+        NumGanado = numGanado;
     }
     public String getFinca() {
         return Finca;
