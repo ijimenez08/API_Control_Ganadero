@@ -20,13 +20,13 @@ public class Ganado
     private String Finca;
     private String Porpietario;
     private String Nombre;
-    private Date Nacimiento;
-    private Date Pastoreo;
-    private Date Lparto;
-    private Date Laborto;
-    private Date Lcelo;
-    private Date Lembrion;
-    private Date Embarazo;
+    private String Nacimiento;
+    private String Pastoreo;
+    private String Lparto;
+    private String Laborto;
+    private String Lcelo;
+    private String Lembrion;
+    private String Embarazo;
     private int Partos;
     private int Hmachos;
     private int Hhembras;
@@ -62,46 +62,46 @@ public class Ganado
     public void setNombre(String nombre) {
         Nombre = nombre;
     }
-    public Date getNacimiento() {
+    public String getNacimiento() {
         return Nacimiento;
     }
-    public void setNacimiento(Date nacimiento) {
+    public void setNacimiento(String nacimiento) {
         Nacimiento = nacimiento;
     }
-    public Date getPastoreo() {
+    public String getPastoreo() {
         return Pastoreo;
     }
-    public void setPastoreo(Date pastoreo) {
+    public void setPastoreo(String pastoreo) {
         Pastoreo = pastoreo;
     }
-    public Date getLparto() {
+    public String getLparto() {
         return Lparto;
     }
-    public void setLparto(Date lparto) {
+    public void setLparto(String lparto) {
         Lparto = lparto;
     }
-    public Date getLaborto() {
+    public String getLaborto() {
         return Laborto;
     }
-    public void setLaborto(Date laborto) {
+    public void setLaborto(String laborto) {
         Laborto = laborto;
     }
-    public Date getLcelo() {
+    public String getLcelo() {
         return Lcelo;
     }
-    public void setLcelo(Date lcelo) {
+    public void setLcelo(String lcelo) {
         Lcelo = lcelo;
     }
-    public Date getLembrion() {
+    public String getLembrion() {
         return Lembrion;
     }
-    public void setLembrion(Date lembrion) {
+    public void setLembrion(String lembrion) {
         Lembrion = lembrion;
     }
-    public Date getEmbarazo() {
+    public String getEmbarazo() {
         return Embarazo;
     }
-    public void setEmbarazo(Date embarazo) {
+    public void setEmbarazo(String embarazo) {
         Embarazo = embarazo;
     }
     public int getPartos() {
