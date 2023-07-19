@@ -179,3 +179,4 @@ Account{name=..., path=..., type=PREDICT}
 2023-07-19 07:47:10.244 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
 2023-07-19 07:47:10.244 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\Familia Jimenez/.rmv/config) watcher launch successful
 2023-07-19 07:47:53.217 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Familia Jimenez/Documents/API_Control_Ganadero/src/main/java/com/cganadero_api/demo/models)
+2023-07-19 07:50:06.881 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Familia Jimenez/Documents/API_Control_Ganadero/src/main/java/com/cganadero_api/demo)
