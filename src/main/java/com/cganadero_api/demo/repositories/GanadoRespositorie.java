@@ -8,5 +8,6 @@ import com.cganadero_api.demo.models.Ganado;
 @Repository
 public interface GanadoRespositorie extends CrudRepository<Ganado, Long>
 {
+    //----------------------------------------------------------------
     
 }
